@@ -1,0 +1,92 @@
+body {
+  background-color: black;
+  margin: 0 auto;
+}
+
+main h1,
+p,
+input {
+  font-family: Josefin Sans;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+}
+
+main h1 {
+  color: whitesmoke;
+  font-size: 10vmin;
+  margin-bottom: 3vmin;
+}
+
+input {
+  width: 50vmin;
+  height: 5vmin;
+  border: 0px;
+  border-radius: 0.5vmin;
+  background-color: white;
+  font-family: Oleo Script;
+  padding-left: 3vmin;
+  display: flex;
+  vertical-align: middle;
+  font-size: 2vmin;
+  margin: 0 auto;
+  outline-color: transparent;
+}
+
+input:focus {
+  box-shadow: 0 1vmin 1vmin 0.3vmin rgba(255, 250, 215, 0.1);
+  outline-color: lavender;
+  outline-width: 1vmin;
+}
+
+.add-todo-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.add-todo-wrapper p {
+  color: whitesmoke;
+  font-size: 4vmin;
+  margin-bottom: 1vmin;
+  margin-top: 0;
+}
+
+.todos {
+  margin: 9vmin auto;
+  background-color: white;
+  display: table-row;
+  width: 40vmin;
+  background-color: transparent;
+}
+
+.todo {
+  padding: 1vmin 3vmin;
+  border-radius: 2vmin;
+  background-color: rgba(205, 209, 228, 0.5);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  vertical-align: middle;
+  color: lavenderblush;
+
+  border: 0px;
+  margin: 1vmin auto;
+  transition: all 0.6s ease-in-out;
+}
+
+.todo:hover {
+  color: rgba(205, 209, 228, 1);
+  color: gray;
+  background-color: black;
+  padding: 1.3vmin 3.5vmin;
+  border-radius: 0;
+}

@@ -1,0 +1,47 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Todo</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Josefin+Sans"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Oleo+Script"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link rel="icon" href="favicon.ico" />
+  </head>
+
+  <body>
+    <main>
+      <h1>Todo List</h1>
+      <input id="search-todo" type="text" placeholder="Search todo" />
+      <div class="todos">
+        <div class="todo">
+          <p>Learn Git</p>
+          <span class="material-icons del-todo">delete_sweep</span>
+        </div>
+        <div class="todo">
+          <p>Learn Typescript</p>
+          <span class="material-icons del-todo">delete_sweep</span>
+        </div>
+        <div class="todo">
+          <p>Learn Rust</p>
+          <span class="material-icons del-todo">delete_sweep</span>
+        </div>
+      </div>
+      <div class="add-todo-wrapper">
+        <p>Add a new todo:</p>
+        <input id="add-todo" type="text" />
+      </div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>

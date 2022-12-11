@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <title>Quiz</title>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="styles.css" />
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Montserrat"
+  />
+  <body>
+    <section class="hero1">
+      <div class="hero">
+        <h1>JS quiz</h1>
+      </div>
+      <div class="final-results">
+        <div class="results-wrapper">
+          <p>You're <span class ="percentage-correct">0%</span> right!</p>
+        </div>
+      </div>
+    </section>
+    <main>
+      <h2>Questions:</h2>
+      <div class="quiz-form-wrapper">
+        <form class="quiz">
+          <div class="question">
+            <p class="quiz-question">How do you add an event listener:</p>
+            <div class="radio-group">
+              <div class="radio-answer">
+                <input type="radio" name="q1" value="A">
+                <label class="answer">e.listen()</label>
+              </div>
+              <div class="radio-answer">
+                <input type="radio" name="q1" value="B">
+                <label class="answer">e.listenEvents()</label>
+              </div>
+              <div class="radio-answer">
+                <input type="radio" name="q1" value="C">
+                <label class="answer">e.addEventListener()</label>
+              </div>
+              <div class="radio-answer">
+                <input type="radio" name="q1" value="D">
+                <label class="answer">e.computeEvents()</label>
+              </div>
+
+
+            </div>
+            </div>
+            <div class="question">
+              <p class="quiz-question">
+                How do you display something on the terminal:
+              </p>
+              <div class="radio-group">
+                <div class="radio-answer">
+                  <input type="radio" name="q2" value="A">
+                <label class="answer">console.print()</label>
+              </div>
+              <div class="radio-answer">
+                <input type="radio" name="q2" value="B">
+                <label class="answer">console.log()</label>
+              </div>
+              <div class="radio-answer">
+                <input type="radio" name="q2" value="C">
+                <label class="answer">console.printf()</label>
+              </div>
+              <div class="radio-answer">
+                <input type="radio" name="q2" value="D">
+                <label class="answer">console.println()</label>
+              </div>
+
+              </div>
+            </div>
+
+            <div class="question">
+              <p class="quiz-question">
+                Keyword for listening to keyboard events:
+              </p>
+              <div class="radio-answer">
+                <input type="radio" name="q3" value="A">
+                <label class="answer">key</label>
+              </div>
+              <div class="radio-answer">
+                <input type="radio" name="q3" value="B">
+                <label class="answer">keyevent</label>
+              </div>
+              <div class="radio-answer">
+                <input type="radio" name="q3" value="C">
+                <label class="answer">keyup</label>
+              </div>
+              <div class="radio-answer">
+                <input type="radio" name="q3" value="D">
+                <label class="answer">kclick</label>
+              </div>
+              </div>
+            </div>
+          <input class = "submit-button" type="submit" default="Submit">
+          </div>
+        </form>
+      </div>
+
+    </main>
+    <script src="code.js"></script>
+  </body>
+</html>
